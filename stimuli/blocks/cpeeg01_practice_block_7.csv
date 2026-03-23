@@ -1,8 +1,0 @@
-trial,ID,filename,Category,Valence,val_bin,condition
-1,People_239_h,People_239_h.jpg,People,2.4,2-3,TONE
-2,Faces_239_v,Faces_239_v.jpg,Faces,6.27,6-7,FEEL
-3,Animals_061_h,Animals_061_h.jpg,Animals,4.2,4-5,FEEL
-4,Objects_201_v,Objects_201_v.jpg,Objects,6.0,5-6,FEEL
-5,Objects_157_h,Objects_157_h.jpg,Objects,2.93,2-3,FEEL
-6,Faces_303_h,Faces_303_h.jpg,Faces,3.15,3-4,TONE
-7,Landscapes_038_h,Landscapes_038_h.jpg,Landscapes,7.25,7-8,TONE
