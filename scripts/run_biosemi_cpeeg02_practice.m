@@ -4,6 +4,16 @@ add_toolbox_paths;
 %03062026
 cfg = cfg_emoreg_defaults();
 
+%CHANGE if needed 
+cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\cp_nonmotor\stimuli\blocks\cpeeg02_practice_block_8.csv';
+cfg.block     = 1;
+
+% ===== SUBJECT =====
+cfg.subject   = 'CPEEG02';
+cfg.session   = 1;
+cfg.condition = 1;
+
+
 % ===== SELECT TRIGGER SYSTEM =====
 cfg.trig.system = 'biosemi';
 cfg.trig.port   = 'COM7';      % (was portName)
@@ -11,26 +21,16 @@ cfg.trig.baud   = 115200;      % (was baudRate; set to what worked before)
 cfg.trig.lowVal = 0;
 cfg.trig.pulseWidth = 0.005;
 
-
-% ===== SUBJECT =====
-cfg.subject   = 'CPEEG01';
-cfg.session   = 1;
-cfg.condition = 1;
-cfg.block     = 1;
-
 % ===== PATHS =====
 cfg.paths.imagesDir  = 'C:\Users\cns-co-admin\Desktop\fk\repos\Images\NAPS_H';
 cfg.paths.scalesDir  = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\SAM-Scales';
 cfg.paths.resultsDir = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\outputs';
 cfg.paths.assetsDir  = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\assets';
 
-%cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\cp_nonmotor\stimuli\blocks\pilot_block_1.csv';
-cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\cp_nonmotor\stimuli\blocks\cpeeg01_practice_block_7.csv';
 
 % ===== Eyelink =====clcclccc
-%cfg.el.useEyelink    = true;
-cfg.el.useEyelink    = false;
-135 34
+cfg.el.useEyelink    = true;
+
 
 % ===== Millikey =====
 cfg.keys.useNumpad = true;
