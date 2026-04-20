@@ -1,9 +1,9 @@
 trial,ID,filename,Category,Valence,val_bin,condition
-1,Objects_207_h,Objects_207_h.jpg,Objects,3.78,3-4,TONE
-2,Landscapes_034_h,Landscapes_034_h.jpg,Landscapes,7.04,7-8,FEEL
-3,Objects_288_h,Objects_288_h.jpg,Objects,5.93,5-6,FEEL
-4,Objects_156_v,Objects_156_v.jpg,Objects,4.06,4-5,FEEL
-5,Animals_001_h,Animals_001_h.jpg,Animals,2.57,2-3,FEEL
-6,People_172_v,People_172_v.jpg,People,8.02,8-9,TONE
-7,Objects_240_h,Objects_240_h.jpg,Objects,6.37,6-7,TONE
-8,Faces_367_h,Faces_367_h.jpg,Faces,1.65,1-2,TONE
+1,7195,7195.jpg,Objects,3.78,4-Mar,TONE
+2,2341,2341.jpg,Landscapes,7.04,8-Jul,FEEL
+3,3022,3022.jpg,Objects,5.93,6-May,FEEL
+4,7018,7018.jpg,Objects,4.06,5-Apr,FEEL
+5,9417,9417.jpg,Animals,2.57,3-Feb,FEEL
+6,1590,1590.jpg,People,8.02,9-Aug,TONE
+7,2594,2594.jpg,Objects,6.37,7-Jun,TONE
+8,9941,9941.jpg,Faces,1.65,2-Jan,TONE
