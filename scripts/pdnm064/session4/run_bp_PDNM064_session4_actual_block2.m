@@ -4,18 +4,20 @@ add_toolbox_paths;
 %03062026
 cfg = cfg_emoreg_defaults();
 
-%CHANGE if needed 
-cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimuli\blocks\pdnm001_sessions\pdnm001_practice_block_8.csv';
-cfg.block     = 1;
+%CHANGE if needed
+cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimuli\blocks\pdnm064_sessions\pdnm064_session_4_block_112.csv';
+cfg.block     = 2;
 
 % ===== SUBJECT =====
-cfg.subject   = 'PDNM001';
+cfg.subject   = 'PDNM064';
 cfg.session   = 4;
 cfg.condition = 4;
 
 
 % ===== SELECT TRIGGER SYSTEM =====
-cfg.trig.system = 'brainproducts';   % 'biosemi' OR 'brainproducts'
+cfg.trig.system = 'brainproducts';  
+
+% ===== TRIGGER SETTINGS =====
 cfg.trig.portName = 'COM7';        % Confirm in Device Manager
 cfg.trig.baud = 2000000;           % REQUIRED for TriggerBox Plus
 cfg.trig.useTriggers = true;
@@ -28,8 +30,8 @@ cfg.paths.resultsDir = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\outp
 cfg.paths.assetsDir  = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\assets';
 
 
-% ===== Eyelink =====
-cfg.el.useEyelink    = true;
+% ===== Eyelink =====clcclccc
+cfg.el.useEyelink = true;
 
 
 % ===== Millikey =====
