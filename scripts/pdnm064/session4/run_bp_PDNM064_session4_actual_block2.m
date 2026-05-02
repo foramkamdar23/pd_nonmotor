@@ -5,7 +5,7 @@ add_toolbox_paths;
 cfg = cfg_emoreg_defaults();
 
 %CHANGE if needed
-cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimuli\blocks\pdnm064_sessions\pdnm064_session_4_block_112.csv';
+cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimuli\blocks\pdnm064_sessions\PDNM064_session_4_block_112';
 cfg.block     = 2;
 
 % ===== SUBJECT =====
