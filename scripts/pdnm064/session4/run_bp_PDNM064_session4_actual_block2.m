@@ -5,7 +5,7 @@ add_toolbox_paths;
 cfg = cfg_emoreg_defaults();
 
 %CHANGE if needed
-cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimuli\blocks\pdnm064_sessions\PDNM064_session_4_block_112';
+cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimuli\blocks\pdnm064_sessions\PDNM064_session_4_block_112.csv';
 cfg.block     = 2;
 
 % ===== SUBJECT =====
@@ -30,7 +30,7 @@ cfg.paths.resultsDir = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\outp
 cfg.paths.assetsDir  = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\assets';
 
 
-% ===== Eyelink =====clcclccc
+% ===== Eyelink =====
 cfg.el.useEyelink = true;
 
 
