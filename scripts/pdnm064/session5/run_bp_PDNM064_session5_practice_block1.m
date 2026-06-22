@@ -13,12 +13,12 @@ cfg.subject   = 'PDNM064';
 cfg.session   = 5;
 cfg.condition = 5;
 
-
-% ===== SELECT TRIGGER SYSTEM =====
-cfg.trig.system = 'brainproducts';   % 'biosemi' OR 'brainproducts'
-cfg.trig.portName = 'COM7';        % Confirm in Device Manager
-cfg.trig.baud = 2000000;           % REQUIRED for TriggerBox Plus
-cfg.trig.useTriggers = true;
+% 
+% % ===== SELECT TRIGGER SYSTEM =====
+% cfg.trig.system = 'brainproducts';   % 'biosemi' OR 'brainproducts'
+% cfg.trig.portName = 'COM7';        % Confirm in Device Manager
+% cfg.trig.baud = 2000000;           % REQUIRED for TriggerBox Plus
+cfg.trig.useTriggers = false;
 cfg.trig.allowDummy  = ~cfg.trig.useTriggers;
 
 % ===== PATHS =====
@@ -29,7 +29,7 @@ cfg.paths.assetsDir  = 'C:\Users\cns-co-admin\Desktop\fk\repos\neurotoolbox\asse
 
 
 % ===== Eyelink =====
-cfg.el.useEyelink    = true;
+cfg.el.useEyelink    = false;
 
 
 % ===== Millikey =====

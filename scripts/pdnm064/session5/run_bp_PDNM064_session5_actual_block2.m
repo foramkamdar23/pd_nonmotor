@@ -9,7 +9,7 @@ cfg.task.manifestCsv = 'C:\Users\cns-co-admin\Desktop\fk\repos\pd_nonmotor\stimu
 cfg.block     = 2;
 
 % ===== SUBJECT =====
-cfg.subject   = 'PDNM001';
+cfg.subject   = 'PDNM064';
 cfg.session   = 5;
 cfg.condition = 5;
 
